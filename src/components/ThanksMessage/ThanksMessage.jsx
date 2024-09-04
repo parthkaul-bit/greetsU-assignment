@@ -1,4 +1,3 @@
-// src/components/ThanksMessage/ThanksMessage.jsx
 import React, { useContext, useEffect, useState } from "react";
 import { FeedbackContext } from "../../context/FeedbackContext";
 import "./ThanksMessage.css";

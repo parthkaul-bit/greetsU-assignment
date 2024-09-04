@@ -1,5 +1,4 @@
-// src/components/RateUsCard/RateUsCard.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./RateUsCard.css";
 
 const RateUsCard = () => {
@@ -7,16 +6,11 @@ const RateUsCard = () => {
   const [rating, setRating] = useState(0);
   const [submitted, setSubmitted] = useState(false);
 
-  // Trigger to show the rate us card (e.g., after feedback submission)
   const showRateUs = () => {
     setVisible(true);
   };
 
-  // Placeholder for showing the Rate Us card after feedback
-  // In a real scenario, you might trigger this based on certain conditions
-  // For demo purposes, let's show it when the component mounts
-  React.useEffect(() => {
-    // Example: show rate us card 2 seconds after component mounts
+  useEffect(() => {
     const timer = setTimeout(showRateUs, 2000);
     return () => clearTimeout(timer);
   }, []);

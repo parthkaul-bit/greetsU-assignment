@@ -1,4 +1,3 @@
-// src/components/FeedbackOption/FeedbackOption.jsx
 import React from "react";
 import "./FeedbackOption.css";
 

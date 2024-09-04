@@ -1,4 +1,3 @@
-// src/components/forms/ShareFeedbackForm.jsx
 import React, { useContext, useState } from "react";
 import { FeedbackContext } from "../../context/FeedbackContext";
 import "./ShareFeedbackForm.css";

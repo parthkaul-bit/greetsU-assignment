@@ -4,13 +4,12 @@ import React, { createContext, useState } from "react";
 // Create the context
 export const FeedbackContext = createContext();
 
-// Provider component
 export const FeedbackProvider = ({ children }) => {
   // Assume currentPage is determined elsewhere in your app
   const [currentPage, setCurrentPage] = useState("Concept Card");
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
   const [feedbackType, setFeedbackType] = useState(null);
-  const [isLoggedIn, setIsLoggedIn] = useState(true); // Replace with actual auth logic
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [optionsConfig, setOptionsConfig] = useState({
     "Landing Page": ["Contact Us"],
     "Concept Card": [
