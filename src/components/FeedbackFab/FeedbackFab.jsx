@@ -7,7 +7,7 @@ import RateUsCard from "../RateUsCard/RateUsCard";
 import ContactUsForm from "../forms/ContactUsForm";
 import GiveSuggestionForm from "../forms/GiveSuggestionForm";
 import ShareFeedbackForm from "../forms/ShareFeedbackForm";
-import ReportIssueForm from "../Forms/ReportIssueForm";
+import ReportIssueForm from "../forms/ReportIssueForm";
 
 const FeedbackFab = () => {
   const { currentPage, optionsConfig } = useContext(FeedbackContext);
